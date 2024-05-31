@@ -1,0 +1,174 @@
+<!DOCTYP<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페 홈페이지</title>
+  
+</head>
+<body>
+    <header>
+        <h1>환영합니다! 우리 카페에 오신 것을 환영합니다</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#menu">메뉴</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- 홈 섹션 -->
+        <section id="home" class="hero">
+          
+          <img src="https://i.imgur.com/XmzydTp.jpeg"
+              width=  "500">
+             
+            <h2>최고의 커피와 함께하는 휴식</h2>
+            <h2>우리 카페에서는 신선한 재료로 만든 최고의 커피를 제공합니다.</p>
+        </section>
+
+        <!-- 메뉴 섹션 -->
+        <section id="menu" class="menu">
+            <h2>우리의 메뉴</h2>
+            <ul>
+                <li>아메리카노 - 4,000원</li>
+                <li>라떼 - 5,000원</li>
+                <li>카푸치노 - 5,000원</li>
+                <li>에스프레소 - 3,000원</li>
+            </ul>
+        </section>
+
+        <!-- 연락처 섹션 -->
+        <section id="contact" class="contact">
+            <h2>문의하기</h2>
+            <form>
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">메시지:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">보내기</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 우리 카페. 모든 권리 보유.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+E html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페 홈페이지</title>
+    <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('cafe.jpg');
+    background-size: cover;
+    color: black;
+    padding: 0;
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact form label, 
+.contact form input, 
+.contact form textarea, 
+.contact form button {
+    margin: 0.5em 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+  </style>
+</head>
+<body>
+    <header>
+        <h1>환영합니다! 우리 카페에 오신 것을 환영합니다</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="menu.html">메뉴</a></li>
+                <li><a href="contact.html">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>최고의 커피와 함께하는 휴식</h2>
+            <p>우리 카페에서는 신선한 재료로 만든 최고의 커피를 제공합니다.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 우리 카페. 모든 권리 보유.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
